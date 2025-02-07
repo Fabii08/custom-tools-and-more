@@ -1,0 +1,86 @@
+name: CustomToolsAndMore
+version: '1.0'
+main: de.fabi.customToolsAndMore.Main
+api-version: '1.21'
+author: Fabii08
+
+commands:
+  rainbow:
+    description: Activates rainbow mode.
+    usage: /rainbow
+    permission: customtools.rainbow
+  anvil:
+    description: Manages custom anvil items.
+    usage: /anvil
+    permission: customtools.anvil
+  Fly:
+    description: Toggles flight mode.
+    usage: /Fly
+    permission: customtools.fly
+  grindstone:
+    description: Manages custom grindstone items.
+    usage: /grindstone
+    permission: customtools.grindstone
+  Hat:
+    description: Manages custom hats.
+    usage: /Hat
+    permission: customtools.hat
+  loom:
+    description: Manages custom loom items.
+    usage: /loom
+    permission: customtools.loom
+  smith:
+    description: Manages custom smithing items.
+    usage: /smith
+    permission: customtools.smith
+  stonecutter:
+    description: Manages custom stonecutter items.
+    usage: /stonecutter
+    permission: customtools.stonecutter
+  trash:
+    description: Manages custom trash.
+    usage: /trash
+    permission: customtools.trash
+  craft:
+    description: Manages custom crafting.
+    usage: /craft
+    permission: customtools.craft
+  Items:
+    description: Manages custom items.
+    usage: /Items
+    permission: customtools.items
+
+permissions:
+  customtools.rainbow:
+    description: Allows use of /rainbow
+    default: op
+  customtools.anvil:
+    description: Allows use of /anvil
+    default: op
+  customtools.fly:
+    description: Allows use of /Fly
+    default: op
+  customtools.grindstone:
+    description: Allows use of /grindstone
+    default: op
+  customtools.hat:
+    description: Allows use of /Hat
+    default: op
+  customtools.loom:
+    description: Allows use of /loom
+    default: op
+  customtools.smith:
+    description: Allows use of /smith
+    default: op
+  customtools.stonecutter:
+    description: Allows use of /stonecutter
+    default: op
+  customtools.trash:
+    description: Allows use of /trash
+    default: op
+  customtools.craft:
+    description: Allows use of /craft
+    default: op
+  customtools.items:
+    description: Allows use of /Items
+    default: op
